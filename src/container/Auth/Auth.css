@@ -2,9 +2,85 @@ div.container div.form {
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 7px 30px 0 rgba(0, 0, 0, 0.1);
-  height: 500px;
+  box-sizing: border-box;
+  height: auto;
   margin: auto;
   margin-top: 50px;
+  padding: 30px;
   position: relative;
   width: 400px;
+}
+
+div.container div.form h2.title {
+  color: #333333;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.container div.form p {
+  color: #888888;
+  font-family: "Muli";
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+div.container div.form label {
+  color: #444444;
+  cursor: text;
+  display: block;
+  font-family: "Muli", sans-serif;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+div.container div.form input {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Muli", sans-serif;
+  height: 45px;
+  margin-top: 7px;
+  padding: 0 15px;
+  outline: none;
+  transition: 0.2s;
+  width: 100%;
+}
+
+div.container div.form input:focus {
+  border: 1px solid #5753e4;
+}
+
+div.container div.form button {
+  background-color: #5753e4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 45px;
+  margin-top: 20px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+div.container div.form button:hover {
+  background-color: #4745d8;
+  box-shadow: 0 7px 22px 0 rgba(0, 0, 0, 0.2);
+  transform: translate(0, -2px);
+}
+
+div.container div.form p.forget {
+  display: inline-block;
+  font-family: "Raleway";
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+div.container div.form p.forget:hover {
+  color: #5753e4;
 }

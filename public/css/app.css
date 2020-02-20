@@ -6,3 +6,7 @@
 body {
   background-color: #f6f6fa;
 }
+
+a {
+  text-decoration: none;
+}

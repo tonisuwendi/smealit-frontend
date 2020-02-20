@@ -1,0 +1,243 @@
+nav {
+  background-color: #00ace6;
+  height: 70px;
+  position: relative;
+  width: 100%;
+}
+
+nav div.main {
+  height: 100%;
+  left: 50%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, 0);
+  width: 1200px;
+}
+
+nav div.main a img.logo {
+  float: left;
+  margin-right: 40px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  width: 115px;
+}
+
+nav div.main div.search {
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+nav div.main div.search i {
+  color: white;
+  font-size: 15px;
+  margin-left: 15px;
+  line-height: 38px;
+  position: absolute;
+}
+
+nav div.main div.search input.search {
+  background-color: #0095c6;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  outline: none;
+  padding: 0 15px;
+  padding-left: 40px;
+  transition: 100ms background-color;
+}
+
+nav div.main div.search input.search-login {
+  width: 600px;
+}
+
+nav div.main div.search input.search-logout {
+  width: 800px;
+}
+
+nav div.main div.search input::-webkit-input-placeholder {
+  color: white;
+}
+
+nav div.main div.search input:focus {
+  background-color: white;
+}
+
+nav div.main div.search input:focus::-webkit-input-placeholder {
+  color: #666666;
+}
+
+nav div.main div.menu {
+  float: left;
+  margin-left: 50px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+nav div.main div.menu a {
+  border-radius: 3px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 150ms background-color;
+}
+
+nav div.main div.menu a:hover {
+  background-color: #0095c6;
+}
+
+nav div.main div.other-menu {
+  border-right: 1px solid #0095c6;
+  border-left: 1px solid #0095c6;
+  float: left;
+  margin-left: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+nav div.main div.other-menu div.icon {
+  border-radius: 50%;
+  cursor: pointer;
+  float: left;
+  height: 45px;
+  margin: 5px;
+  position: relative;
+  transition: 200ms background-color;
+  width: 45px;
+}
+
+nav div.main div.other-menu div.icon i {
+  color: white;
+  font-size: 20px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav div.main div.other-menu div.icon:hover {
+  background-color: #0095c6;
+}
+
+nav div.main div.other-menu div.icon:hover i {
+  color: #dddddd;
+  font-size: 19px;
+}
+
+nav div.main div.profile {
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+  padding: 8px 13px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: 150ms background-color;
+}
+
+nav div.main div.profile:hover {
+  background-color: #0095c6;
+}
+
+nav div.main div.profile div.avatar {
+  border-radius: 50%;
+  float: left;
+  height: 30px;
+  margin-right: 7px;
+  overflow: hidden;
+  position: relative;
+  width: 30px;
+}
+
+nav div.main div.profile div.avatar img {
+  width: 100%;
+}
+
+nav div.main div.profile i {
+  color: white;
+  position: relative;
+  top: 8px;
+}
+
+nav div.main div.dropdown-profile {
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  box-shadow: 1px 5px 17px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  height: auto;
+  margin-top: 70px;
+  padding: 10px 0;
+  position: absolute;
+  right: -50px;
+  width: auto;
+}
+
+nav div.main div.dropdown-profile table a {
+  color: #222222;
+  text-decoration: none;
+}
+
+nav div.main div.dropdown-profile table tr {
+  cursor: pointer;
+  display: block;
+  padding: 10px 25px;
+}
+
+nav div.main div.dropdown-profile table tr i {
+  margin-right: 10px;
+}
+
+nav div.main div.dropdown-profile table tr a {
+  color: #222222;
+  font-size: 17px;
+}
+
+nav div.main div.dropdown-profile table tr:hover {
+  background-color: #eeeeee;
+}
+
+nav div.main div.auth {
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+  padding: 8px 13px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: 150ms background-color;
+}
+
+nav div.main div.auth a {
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 150ms background-color;
+}
+
+nav div.main div.auth a.login {
+  background-color: white;
+  color: black;
+}
+
+div.top {
+  height: 65px;
+}
