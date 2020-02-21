@@ -1,0 +1,8 @@
+div.sideleft-wrapper {
+  background-color: white;
+  border-radius: 5px;
+  float: left;
+  height: 500px;
+  margin-right: 20px;
+  width: 280px;
+}

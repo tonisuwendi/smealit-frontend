@@ -1,8 +1,9 @@
 nav {
-  background-color: #00ace6;
+  background-color: #3d38ac;
   height: 70px;
-  position: relative;
+  position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 nav div.main {
@@ -40,7 +41,7 @@ nav div.main div.search i {
 }
 
 nav div.main div.search input.search {
-  background-color: #0095c6;
+  background-color: #5956bf;
   border: none;
   border-radius: 3px;
   box-sizing: border-box;
@@ -93,12 +94,12 @@ nav div.main div.menu a {
 }
 
 nav div.main div.menu a:hover {
-  background-color: #0095c6;
+  background-color: #272496;
 }
 
 nav div.main div.other-menu {
-  border-right: 1px solid #0095c6;
-  border-left: 1px solid #0095c6;
+  border-right: 1px solid #272496;
+  border-left: 1px solid #272496;
   float: left;
   margin-left: 15px;
   padding-left: 10px;
@@ -129,7 +130,7 @@ nav div.main div.other-menu div.icon i {
 }
 
 nav div.main div.other-menu div.icon:hover {
-  background-color: #0095c6;
+  background-color: #272496;
 }
 
 nav div.main div.other-menu div.icon:hover i {
@@ -149,7 +150,7 @@ nav div.main div.profile {
 }
 
 nav div.main div.profile:hover {
-  background-color: #0095c6;
+  background-color: #272496;
 }
 
 nav div.main div.profile div.avatar {
@@ -239,5 +240,5 @@ nav div.main div.auth a.login {
 }
 
 div.top {
-  height: 65px;
+  height: 70px;
 }
